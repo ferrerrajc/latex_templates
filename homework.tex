@@ -1,10 +1,17 @@
 \documentclass[10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1in]{geometry}
+\usepackage{tikz-cd}
+\usepackage[disable]{todonotes} % Remove [disable] to show todonotes
 
 % Enter appropriate directory
-\input{input/sets.tex}
-\input{input/names.tex}
+\input{/Users/josh/latex_templates/input/sets.tex}
+\input{/Users/josh/latex_templates/input/names.tex}
+
+\newcommand{\todobrob}[2][]
+{\todo[color=gray, inline, #1]{#2}}
+\newcommand{\todopart}[2][]
+{\todo[color=gray!50, #1]{#2}}
 
 \begin{document}
 
